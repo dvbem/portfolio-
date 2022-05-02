@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600&family=Jost:wght@300;400;500&family=Pacifico&family=Shadows+Into+Light&display=swap');
+body {
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 255, 255);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
+
+li:hover {
+    color: rgb(231, 49, 231);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header ul {
+    display: flex;
+    padding: 10px 10px 50px 10px;
+}
+
+li {
+    list-style: none;
+    color: #fff;
+    margin: 5px 10px;
+}
+.brand-section {
+    margin-top: 10vh;
+    text-align: center;
+}
+h1 {
+    font-size: 90px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+.brand {
+    font-family: 'Shadows Into Light', cursive
+}
+.world {
+    font-size: 20px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+}
+footer ul {
+    display: flex;
+    padding: 15px;
+}
+.wave {
+    fill: rgb(0, 0, 0);
+    width: 100vw;
+    height: 40vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.description {
+    line-height: 0;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0;
+}
+@media screen and (max-width: 600px) {
+    h1 {font-size: 70px;}
+    .world {font-size: 15px;}
+    .description {font-size: 13px;}
+    body {font-size: 12px;}
+    .brand-section {
+        margin-top: 20vh;
+    }
+    .wave {
+        height: 30vh;
+    }
+    .brand-section {
+        margin-top: 15vh;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    h1 {font-size: 50px;}
+    .world {font-size: 10px;}
+    body {font-size: 10px;}
+}
+@media screen and (max-width: 200px) {
+    
+}
